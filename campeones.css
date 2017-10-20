@@ -1,0 +1,34 @@
+* {
+    cursor: url(img/cursor.png), auto;
+}
+
+#fotocampeon {
+    width: 50px;
+    cursor: url(img/cursorClick.png), auto;
+}
+
+.campeon {
+    text-align: center;
+}
+
+body {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#campeones {
+    margin-top: 15px;
+}
+
+#sinresultados img {
+    height: 150px;
+}
+
+#sinresultados {
+    text-align: center;
+}
+
+#sinresultados button {
+    cursor: url(img/cursorClick.png), auto;
+}
