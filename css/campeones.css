@@ -1,10 +1,10 @@
 * {
-    cursor: url(img/cursor.png), auto;
+    cursor: url(../img/cursor.png), auto;
 }
 
 #fotocampeon {
     width: 50px;
-    cursor: url(img/cursorClick.png), auto;
+    cursor: url(../img/cursorClick.png), auto;
 }
 
 .campeon {
@@ -30,5 +30,5 @@ body {
 }
 
 #sinresultados button {
-    cursor: url(img/cursorClick.png), auto;
+    cursor: url(../img/cursorClick.png), auto;
 }

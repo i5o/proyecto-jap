@@ -1,0 +1,17 @@
+<div class="container" style="margin-top: 10px">
+<!-- Falta un header, y un footer -->
+<input class="form-control" type="text" placeholder="Buscar campeon" ng-model="busqueda" ng-change="filtrar()" ng-model-options='{ debounce: 50 }' />
+<div id="campeones">
+    <div class="row" ng-repeat="fila in filas">
+        <div class="campeon col-lg-1 col-md-1 col-xs-4" ng-repeat="campeon in fila">
+            <img ng-src="{{ campeon.foto }}" id="fotocampeon" ng-click="abrirCampeon(campeon.nombre)">
+            <p>{{ campeon.nombre }}</p>
+        </div>
+    </div>
+    <div ng-if="filas[0].length == 0" id="sinresultados">
+        <img src="img/SinResultados.png">
+        <p><b>No se encontraron campeones</b></p>
+        <button class="btn btn-sm btn-info" ng-click="limpiarBusqueda()">Limpiar busqueda</button>
+    </div>
+</div>
+</div>
