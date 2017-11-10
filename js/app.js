@@ -11,8 +11,8 @@ appMod.config(function($stateProvider, $urlRouterProvider) {
             controller: 'ControllerCampeones'
         })
         .state('campeon', {
-          url: '/campeon',
+          url: '/campeon/:campeon',
           templateUrl: 'views/campeon.html',
-          controller: 'ControllerCampeones'
+          controller: 'ControllerCampeon'
         });
 });

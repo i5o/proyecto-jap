@@ -1,12 +1,21 @@
 var module = angular.module('app.campeones', []);
 
+ControllerCampeon.inject = ['$scope', '$state', '$stateParams']
 ControllerCampeones.inject = ['$scope'];
 
+function ControllerCampeon($scope, $state, $stateParams) {
+  $scope.campeon = $stateParams.campeon;
+  if (!$scope.campeon) {
+    $state.go('listado');
+  }
+  $scope.descripcion = campeones.filter(function (e) {
+    return e.nombre == $scope.campeon;
+  })[0].descripcion;
+}
 
 function ControllerCampeones($scope) {
     $scope.campeones = campeones;
     $scope.busqueda = "";
-
 
     $scope.campeones.forEach(function(element) {
         element.foto = "img/" + element.nombre.replace(" ", "").replace(".", "").replace("'", "") + ".png";
@@ -49,9 +58,8 @@ function ControllerCampeones($scope) {
         $scope.filtrar();
     }
 
-    $scope.abrirCampeon = function(campeon) {
-        alert("Informacion del campeon " + campeon + " no disponible. (No implementado)");
-    }
+
 };
 
 module.controller('ControllerCampeones', ControllerCampeones);
+module.controller('ControllerCampeon', ControllerCampeon);

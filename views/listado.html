@@ -4,8 +4,8 @@
 <div id="campeones">
     <div class="row" ng-repeat="fila in filas">
         <div class="campeon col-lg-1 col-md-1 col-xs-4" ng-repeat="campeon in fila">
-            <img ng-src="{{ campeon.foto }}" id="fotocampeon" ng-click="abrirCampeon(campeon.nombre)">
-            <p>{{ campeon.nombre }}</p>
+            <img ui-sref="campeon({campeon: '{{ campeon.nombre }}'})" ng-src="{{ campeon.foto }}" id="fotocampeon">
+            <p ui-sref="campeon({campeon: '{{ campeon.nombre }}'})">{{ campeon.nombre }}</p>
         </div>
     </div>
     <div ng-if="filas[0].length == 0" id="sinresultados">

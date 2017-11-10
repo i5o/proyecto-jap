@@ -7,6 +7,7 @@ var campeones = [{
       "magia": "3/10",
       "defensa": "4/10"
   },
+  "splash": "Aatrox_0.jpg"
 },
 {
   "descripcion": "la Kumiho Ancestral",
