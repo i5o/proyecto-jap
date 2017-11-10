@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-jap",
+  "version": "1.0.0",
+  "description": "Proyecto Jovenes a Programar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5o/proyecto-jap.git"
+  },
+  "author": "Ignacio Rodriguez <ignacio@sugarlabs.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5o/proyecto-jap/issues"
+  },
+  "homepage": "https://github.com/i5o/proyecto-jap#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
