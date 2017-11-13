@@ -6,8 +6,7 @@ var campeones = [{
       "ataque": "8/10",
       "magia": "3/10",
       "defensa": "4/10"
-  },
-  "splash": "Aatrox_0.jpg"
+  }
 },
 {
   "descripcion": "la Kumiho Ancestral",
@@ -17,7 +16,7 @@ var campeones = [{
       "ataque": "3/10",
       "magia": "8/10",
       "defensa": "4/10"
-  },
+  }
 },
 {
   "descripcion": "el Pu\u00f1o de la Sombra",
@@ -67,7 +66,7 @@ var campeones = [{
       "ataque": "2/10",
       "magia": "10/10",
       "defensa": "3/10"
-  }
+  },
 },
 {
   "descripcion": "la Arquera de Hielo",
@@ -107,7 +106,8 @@ var campeones = [{
       "ataque": "4/10",
       "magia": "5/10",
       "defensa": "4/10"
-  }
+  },
+  "nombrelistado": "Bard"
 },
 {
   "descripcion": "el Gran G\u00f3lem de Vapor",
@@ -177,7 +177,8 @@ var campeones = [{
       "ataque": "3/10",
       "magia": "7/10",
       "defensa": "7/10"
-  }
+  },
+  "nombrelistado": "Chogath"
 },
 {
   "descripcion": "el Bombardero Osado",
@@ -217,7 +218,8 @@ var campeones = [{
       "ataque": "5/10",
       "magia": "6/10",
       "defensa": "7/10"
-  }
+  },
+  "nombrelistado": "DrMundo"
 },
 {
   "descripcion": "el Glorioso Ejecutor",
@@ -427,7 +429,8 @@ var campeones = [{
       "ataque": "6/10",
       "magia": "3/10",
       "defensa": "8/10"
-  }
+  },
+  "nombrelistado": "JarvanIV"
 },
 {
   "descripcion": "el Maestro de Armas",
@@ -547,7 +550,8 @@ var campeones = [{
       "ataque": "9/10",
       "magia": "3/10",
       "defensa": "4/10"
-  }
+  },
+  "nombrelistado": "Khazix"
 },
 {
   "descripcion": "los Cazadores Eternos",
@@ -577,7 +581,8 @@ var campeones = [{
       "ataque": "8/10",
       "magia": "5/10",
       "defensa": "2/10"
-  }
+  },
+  "nombrelistado": "KogMaw"
 },
 {
   "descripcion": "la Maquiav\u00e9lica",
@@ -597,7 +602,8 @@ var campeones = [{
       "ataque": "8/10",
       "magia": "3/10",
       "defensa": "5/10"
-  }
+  },
+  "nombrelistado": "LeeSin"
 },
 {
   "descripcion": "el Radiante Amanecer",
@@ -657,7 +663,8 @@ var campeones = [{
       "ataque": "10/10",
       "magia": "2/10",
       "defensa": "4/10"
-  }
+  },
+  "nombrelistado": "MasterYi"
 },
 {
   "descripcion": "el Fragmento del Monolito",
@@ -847,7 +854,8 @@ var campeones = [{
       "ataque": "8/10",
       "magia": "2/10",
       "defensa": "5/10"
-  }
+  },
+  "nombrelistado": "RekSai"
 },
 {
   "descripcion": "el Carnicero de las Arenas",
@@ -1117,7 +1125,8 @@ var campeones = [{
       "ataque": "6/10",
       "magia": "6/10",
       "defensa": "2/10"
-  }
+  },
+  "nombrelistado": "TwistedFate"
 },
 {
   "descripcion": "la Rata Mutante",
@@ -1187,7 +1196,8 @@ var campeones = [{
       "ataque": "2/10",
       "magia": "10/10",
       "defensa": "2/10"
-  }
+  },
+  "nombrelistado": "Velkoz"
 },
 {
   "descripcion": "la Vigilante de Pilt\u00f3ver",
@@ -1247,7 +1257,8 @@ var campeones = [{
       "ataque": "8/10",
       "magia": "2/10",
       "defensa": "5/10"
-  }
+  },
+  "nombrelistado": "MonkeyKing"
 },
 {
   "descripcion": "el Mago Ascendente",

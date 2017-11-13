@@ -1,0 +1,17 @@
+<html><body>Sorry, invalid request</body></html>
+HTTP/1.1 403 Forbidden
+Content-Type: application/xml
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Max-Age: 3000
+Date: Mon, 13 Nov 2017 13:00:38 GMT
+Server: AmazonS3
+X-Cache: Error from cloudfront
+X-Amz-Cf-Id: KJvYSEwGTtX3_2_4htWPlQ_MMNsvafumLKcGRnU7BKog9Ao3SlxHQw==
+X-Cache: MISS from CeibalEduUy
+X-Cache-Lookup: MISS from CeibalEduUy:3128
+Via: 1.1 1b332ce02e10dbb176b7fdff83517d4b.cloudfront.net (CloudFront), 1.1 CeibalEduUy (squid/3.5.9)
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>212A8764FE51BDED</RequestId><HostId>uIsl38FrE2s9VR7IWBWJqUShSHMlHdNhX7n6LfRZFyX1mV9hkHH+ItralfKUhAYl2WF8/RGShmA=</HostId></Error>

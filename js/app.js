@@ -16,3 +16,15 @@ appMod.config(function($stateProvider, $urlRouterProvider) {
           controller: 'ControllerCampeon'
         });
 });
+
+appMod.filter('fixNombreCampeon', function () {
+  return function (text) {
+      var campeon = campeones.filter(function (f) {
+        return f.nombre == text;
+      })[0];
+      if (campeon.nombrelistado) {
+        return campeon.nombrelistado;
+      }
+      return campeon.nombre;
+  };
+});

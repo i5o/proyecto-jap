@@ -4,13 +4,14 @@ ControllerCampeon.inject = ['$scope', '$state', '$stateParams']
 ControllerCampeones.inject = ['$scope'];
 
 function ControllerCampeon($scope, $state, $stateParams) {
-  $scope.campeon = $stateParams.campeon;
+  $scope.campeon = campeones.filter(function (e) {
+    return e.nombre == $stateParams.campeon || e.nombrelistado == $stateParams.campeon;
+  })[0];
+
   if (!$scope.campeon) {
     $state.go('listado');
   }
-  $scope.descripcion = campeones.filter(function (e) {
-    return e.nombre == $scope.campeon;
-  })[0].descripcion;
+  $scope.descripcion = $scope.campeon.descripcion;
 }
 
 function ControllerCampeones($scope) {
