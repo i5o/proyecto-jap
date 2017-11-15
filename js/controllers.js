@@ -1,9 +1,9 @@
 var module = angular.module('app.campeones', []);
 
-ControllerCampeon.inject = ['$scope', '$state', '$stateParams']
+ControllerCampeon.inject = ['$scope', '$state', '$stateParams', '$filter']
 ControllerCampeones.inject = ['$scope'];
 
-function ControllerCampeon($scope, $state, $stateParams) {
+function ControllerCampeon($scope, $state, $stateParams, $filter) {
   $scope.campeon = campeones.filter(function (e) {
     return e.nombre == $stateParams.campeon || e.nombrelistado == $stateParams.campeon;
   })[0];
@@ -12,6 +12,15 @@ function ControllerCampeon($scope, $state, $stateParams) {
     $state.go('listado');
   }
   $scope.descripcion = $scope.campeon.descripcion;
+  $scope.fondoinicial = $filter('fixNombreCampeon')($scope.campeon.nombre) + "_0.jpg";
+  $scope.fondo = $scope.fondoinicial;
+
+  $scope.cambiarFondo = function(img) {
+    if (!img) {
+      img = $scope.fondoinicial;
+    }
+    $scope.fondo = img;
+  }
 }
 
 function ControllerCampeones($scope) {

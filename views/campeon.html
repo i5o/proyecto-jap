@@ -1,27 +1,68 @@
 <style>
   body {
-    background-image: url('../img/splash/{{ campeon.nombre | fixNombreCampeon }}_0.jpg');
+    background-image: url('../img/splash/{{ fondo }}');
     background-size: cover;
-  }
-
-  .infocampeon {
-    height: 100vh;
-    width: 25vw;
-    background-color: rgba(255, 255, 255, 0.7);
-    position: absolute;
-  }
-  .infocampeon center {
-    margin-top: 10px;
-  }
-  h1 {
-    margin-bottom: 0px;
+    -webkit-transition: background-image 0.5s ease-in-out;
+    transition: background-image 0.5s ease-in-out;
   }
 </style>
 <div class="infocampeon">
   <center>
-    <button class="btn btn-volver" id="volver" ui-sref="listado">Volver</button>
+    <img ng-src="img/{{ campeon.tipo }}.png">
     <h1>{{ campeon.nombre }}</h1>
-    {{ descripcion }}<br>
-    <p>Estadisticas</p>
+    {{ descripcion }}
+    <div class="stats">
+        <p style="margin-top: 30px; font-size: 15px; margin-bottom: 0">Estadisticas</p>
+        <div class="attack">
+          <span>Ataque</span>
+          <div class="statsbar">
+             <div class="stat-section" ng-repeat="i in campeon.estadisticas.ataque | range"></div>
+          </div>
+        </div>
+        <div class="defense">
+          <span>Defensa</span>
+          <div class="statsbar">
+             <div class="stat-section" ng-repeat="i in campeon.estadisticas.defensa | range"></div>
+          </div>
+        </div>
+        <div class="ability">
+          <span>Habilidad</span>
+          <div class="statsbar">
+             <div class="stat-section" ng-repeat="i in campeon.estadisticas.magia | range"></div>
+          </div>
+        </div>
+        <div class="difficulty">
+          <span>Dificultad</span>
+          <div class="statsbar">
+             <div class="stat-section" ng-repeat="i in campeon.estadisticas.dificultad | range"></div>
+          </div>
+        </div>
+      </div>
+
+    <div id="skins" class="carousel slide" data-ride="carousel" ng-if="campeon.skins">
+      <ol class="carousel-indicators" style="top: 15px; bottom: 0px;">
+        <li data-target="#skins" data-slide-to="0" class="active"></li>
+        <li data-target="#skins" data-slide-to="{{ $index + 1 }}" ng-repeat="skin in campeon.skins"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img ng-src="/img/splash/{{ campeon.nombre | fixNombreCampeon }}_0.jpg" alt="{{ campeon.nombre }}">
+          <div class="caption" style="bottom: -15px!important;">
+            <p style="margin: 0; padding: 0"><img class="coin" src="img/EA.png"> {{ campeon.precio }}</p>
+            <p style="margin: 0; padding: 0;"><strong>{{ campeon.nombre }}</strong></p>
+            <img ng-if="fondo != fondoinicial" ng-click="cambiarFondo()" src="img/eye.png" style="position: absolute; top: 0; right: 10px; width: 24px; height: 24px; cursor: pointer;">
+          </div>
+        </div>
+        <div class="carousel-item" ng-repeat="skin in campeon.skins">
+          <img ng-src="/img/splash/{{ skin.splash }}" alt="{{ skin.nombre }}">
+          <div class="caption">
+            <p style="margin: 0; padding: 0"><img class="coin" src="img/RP.png"> {{ skin.precio }}</p>
+            <p style="margin: 0; padding: 0;"><strong>{{ skin.nombre }}</strong></p>
+            <img ng-if="fondo != skin.splash" ng-click="cambiarFondo(skin.splash)" src="img/eye.png" style="position: absolute; top: 0; right: 10px; width: 24px; height: 24px; cursor: pointer;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='volver' ui-sref="listado"><a ui-sref="listado">Volver</a></div>
   </center>
-</div>
+  </div>

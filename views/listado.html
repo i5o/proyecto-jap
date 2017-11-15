@@ -1,11 +1,19 @@
+<style>
+body {
+  background-image: url('../img/bg.jpg');
+  background-attachment: fixed;
+  color: white;
+}
+
+</style>
 <div class="container" style="margin-top: 10px">
 <!-- Falta un header, y un footer -->
 <input class="form-control" type="text" placeholder="Buscar campeon" ng-model="busqueda" ng-change="filtrar()" ng-model-options='{ debounce: 50 }' />
 <div id="campeones">
     <div class="row" ng-repeat="fila in filas">
         <div class="campeon col-lg-1 col-md-1 col-xs-4" ng-repeat="campeon in fila">
-            <img ui-sref="campeon({campeon: '{{ campeon.nombre | fixNombreCampeon }}'})" ng-src="{{ campeon.foto }}" id="fotocampeon">
-            <p ui-sref="campeon({campeon: '{{ campeon.nombre | fixNombreCampeon }}'})">{{ campeon.nombre }}</p>
+          <img ui-sref="campeon({campeon: '{{ campeon.nombre | fixNombreCampeon }}'})" ng-src="{{ campeon.foto }}" id="fotocampeon">
+          <p ui-sref="campeon({campeon: '{{ campeon.nombre | fixNombreCampeon }}'})">{{ campeon.nombre }}</p>
         </div>
     </div>
     <div ng-if="filas[0].length == 0" id="sinresultados">
