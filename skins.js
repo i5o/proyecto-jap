@@ -6339,13 +6339,13 @@ var campeones = [{
     {
         descripcion: "la Kumiho Ancestral",
         nombre: "Ahri",
+        precio: 4800,
         estadisticas: {
             dificultad: 5,
             ataque: 3,
             magia: 8,
             defensa: 4
         },
-        precio: 6300,
         skins: [{
                 nombre: "Ahri Dinástica",
                 precio: 975,
@@ -6387,13 +6387,13 @@ var campeones = [{
     {
         descripcion: "el Pu\u00f1o de la Sombra",
         nombre: "Akali",
+        precio: 3150,
         estadisticas: {
             dificultad: 7,
             ataque: 5,
             magia: 8,
             defensa: 3
         },
-        precio: 4800,
         skins: [{
                 "nombre": "Akali Aguijón",
                 splash: "Akali_1.jpg",
@@ -6439,6 +6439,7 @@ var campeones = [{
     {
         descripcion: "el Minotauro",
         nombre: "Alistar",
+        precio: 1350,
         estadisticas: {
             dificultad: 7,
             ataque: 6,
@@ -6497,6 +6498,7 @@ var campeones = [{
     {
         descripcion: "la Momia Triste",
         nombre: "Amumu",
+        precio: 450,
         estadisticas: {
             dificultad: 3,
             ataque: 2,
@@ -6549,6 +6551,7 @@ var campeones = [{
     {
         descripcion: "la Criof\u00e9nix",
         nombre: "Anivia",
+        precio: 3150,
         estadisticas: {
             dificultad: 10,
             ataque: 1,
@@ -6559,6 +6562,7 @@ var campeones = [{
     {
         descripcion: "la Hija de la Oscuridad",
         nombre: "Annie",
+        precio: 450,
         estadisticas: {
             dificultad: 6,
             ataque: 2,
@@ -6569,6 +6573,7 @@ var campeones = [{
     {
         descripcion: "la Arquera de Hielo",
         nombre: "Ashe",
+        precio: 450,
         estadisticas: {
             dificultad: 4,
             ataque: 7,
@@ -6579,6 +6584,7 @@ var campeones = [{
     {
         descripcion: "el Forjador de Estrellas",
         nombre: "Aurelion Sol",
+        precio: 6300,
         estadisticas: {
             dificultad: 7,
             ataque: 2,
@@ -6590,6 +6596,7 @@ var campeones = [{
     {
         descripcion: "el Emperador de las Arenas",
         nombre: "Azir",
+        precio: 6300,
         estadisticas: {
             dificultad: 9,
             ataque: 6,
@@ -6600,6 +6607,7 @@ var campeones = [{
     {
         descripcion: "el Guardi\u00e1n Trotamundos",
         nombre: "Bardo",
+        precio: 6300,
         estadisticas: {
             dificultad: 9,
             ataque: 4,
@@ -6611,6 +6619,7 @@ var campeones = [{
     {
         descripcion: "el Gran G\u00f3lem de Vapor",
         nombre: "Blitzcrank",
+        precio: 3150,
         estadisticas: {
             dificultad: 4,
             ataque: 4,
@@ -6621,6 +6630,7 @@ var campeones = [{
     {
         descripcion: "la Venganza Ardiente",
         nombre: "Brand",
+        precio: 4800,
         estadisticas: {
             dificultad: 4,
             ataque: 2,
@@ -6631,6 +6641,7 @@ var campeones = [{
     {
         descripcion: "el Coraz\u00f3n del Fr\u00e9ljord",
         nombre: "Braum",
+        precio: 6300,
         estadisticas: {
             dificultad: 3,
             ataque: 3,
@@ -6641,6 +6652,7 @@ var campeones = [{
     {
         descripcion: "la Sheriff de Pilt\u00f3ver",
         nombre: "Caitlyn",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 8,
@@ -6651,6 +6663,7 @@ var campeones = [{
     {
         descripcion: "la Sombra de Acero",
         nombre: "Camille",
+        precio: 6300,
         estadisticas: {
             dificultad: 4,
             ataque: 8,
@@ -6661,6 +6674,7 @@ var campeones = [{
     {
         descripcion: "el Abrazo de la Serpiente",
         nombre: "Cassiopeia",
+        precio: 4800,
         estadisticas: {
             dificultad: 10,
             ataque: 2,
@@ -6671,6 +6685,7 @@ var campeones = [{
     {
         descripcion: "el Terror del Vac\u00edo",
         nombre: "Cho'Gath",
+        precio: 1350,
         estadisticas: {
             dificultad: 5,
             ataque: 3,
@@ -6682,6 +6697,7 @@ var campeones = [{
     {
         descripcion: "el Bombardero Osado",
         nombre: "Corki",
+        precio: 3150,
         estadisticas: {
             dificultad: 6,
             ataque: 8,
@@ -6692,6 +6708,7 @@ var campeones = [{
     {
         descripcion: "la Mano de Noxus",
         nombre: "Darius",
+        precio: 4800,
         estadisticas: {
             dificultad: 2,
             ataque: 9,
@@ -6702,6 +6719,7 @@ var campeones = [{
     {
         descripcion: "el Desd\u00e9n de la Luna",
         nombre: "Diana",
+        precio: 4800,
         estadisticas: {
             dificultad: 4,
             ataque: 7,
@@ -6712,6 +6730,7 @@ var campeones = [{
     {
         descripcion: "el Loco de Zaun",
         nombre: "Dr. Mundo",
+        precio: 1350,
         estadisticas: {
             dificultad: 5,
             ataque: 5,
@@ -6723,6 +6742,7 @@ var campeones = [{
     {
         descripcion: "el Glorioso Ejecutor",
         nombre: "Draven",
+        precio: 4800,
         estadisticas: {
             dificultad: 8,
             ataque: 9,
@@ -6733,6 +6753,7 @@ var campeones = [{
     {
         descripcion: "el Joven que Fragment\u00f3 el Tiempo",
         nombre: "Ekko",
+        precio: 6300,
         estadisticas: {
             dificultad: 8,
             ataque: 5,
@@ -6743,6 +6764,7 @@ var campeones = [{
     {
         descripcion: "la Reina de las Ara\u00f1as",
         nombre: "Elise",
+        precio: 4800,
         estadisticas: {
             dificultad: 9,
             ataque: 6,
@@ -6753,6 +6775,7 @@ var campeones = [{
     {
         descripcion: "la Hacedora de Viudas",
         nombre: "Evelynn",
+        precio: 1350,
         estadisticas: {
             dificultad: 10,
             ataque: 4,
@@ -6763,6 +6786,7 @@ var campeones = [{
     {
         descripcion: "el Explorador Pr\u00f3digo",
         nombre: "Ezreal",
+        precio: 4800,
         estadisticas: {
             dificultad: 7,
             ataque: 7,
@@ -6773,6 +6797,7 @@ var campeones = [{
     {
         descripcion: "el Mensajero de la Muerte",
         nombre: "Fiddlesticks",
+        precio: 1350,
         estadisticas: {
             dificultad: 9,
             ataque: 2,
@@ -6783,6 +6808,7 @@ var campeones = [{
     {
         descripcion: "la Gran Duelista",
         nombre: "Fiora",
+        precio: 4800,
         estadisticas: {
             dificultad: 3,
             ataque: 10,
@@ -6793,6 +6819,7 @@ var campeones = [{
     {
         descripcion: "el Bromista de las Mareas",
         nombre: "Fizz",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 6,
@@ -6803,6 +6830,7 @@ var campeones = [{
     {
         descripcion: "la Tristeza del Guardi\u00e1n",
         nombre: "Galio",
+        precio: 3150,
         estadisticas: {
             dificultad: 3,
             ataque: 3,
@@ -6813,6 +6841,7 @@ var campeones = [{
     {
         descripcion: "el Azote de los Mares",
         nombre: "Gangplank",
+        precio: 3150,
         estadisticas: {
             dificultad: 9,
             ataque: 7,
@@ -6823,6 +6852,7 @@ var campeones = [{
     {
         descripcion: "el Poder de Demacia",
         nombre: "Garen",
+        precio: 450,
         estadisticas: {
             dificultad: 5,
             ataque: 7,
@@ -6833,6 +6863,7 @@ var campeones = [{
     {
         descripcion: "el Eslab\u00f3n Perdido",
         nombre: "Gnar",
+        precio: 6300,
         estadisticas: {
             dificultad: 8,
             ataque: 6,
@@ -6843,6 +6874,7 @@ var campeones = [{
     {
         descripcion: "el Revoltoso",
         nombre: "Gragas",
+        precio: 3150,
         estadisticas: {
             dificultad: 5,
             ataque: 4,
@@ -6853,6 +6885,7 @@ var campeones = [{
     {
         descripcion: "el Forajido",
         nombre: "Graves",
+        precio: 4800,
         estadisticas: {
             dificultad: 3,
             ataque: 8,
@@ -6863,6 +6896,7 @@ var campeones = [{
     {
         descripcion: "la Sombra de la Guerra",
         nombre: "Hecarim",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 8,
@@ -6873,6 +6907,7 @@ var campeones = [{
     {
         descripcion: "el Venerable Inventor",
         nombre: "Heimerdinger",
+        precio: 3150,
         estadisticas: {
             dificultad: 8,
             ataque: 2,
@@ -6883,6 +6918,7 @@ var campeones = [{
     {
         descripcion: "la Sacerdotisa del Kraken",
         nombre: "Illaoi",
+        precio: 6300,
         estadisticas: {
             dificultad: 4,
             ataque: 8,
@@ -6893,6 +6929,7 @@ var campeones = [{
     {
         descripcion: "la Voluntad de las Hojas",
         nombre: "Irelia",
+        precio: 4800,
         estadisticas: {
             dificultad: 5,
             ataque: 7,
@@ -6903,6 +6940,7 @@ var campeones = [{
     {
         descripcion: "el \u00c1rbol Padre",
         nombre: "Ivern",
+        precio: 6300,
         estadisticas: {
             dificultad: 7,
             ataque: 3,
@@ -6913,6 +6951,7 @@ var campeones = [{
     {
         descripcion: "la Furia de la Tormenta",
         nombre: "Janna",
+        precio: 1350,
         estadisticas: {
             dificultad: 7,
             ataque: 3,
@@ -6923,6 +6962,7 @@ var campeones = [{
     {
         descripcion: "el Ejemplo de Demacia",
         nombre: "Jarvan IV",
+        precio: 4800,
         estadisticas: {
             dificultad: 5,
             ataque: 6,
@@ -6934,6 +6974,7 @@ var campeones = [{
     {
         descripcion: "el Maestro de Armas",
         nombre: "Jax",
+        precio: 1350,
         estadisticas: {
             dificultad: 5,
             ataque: 7,
@@ -6944,6 +6985,7 @@ var campeones = [{
     {
         descripcion: "el Defensor del Ma\u00f1ana",
         nombre: "Jayce",
+        precio: 4800,
         estadisticas: {
             dificultad: 7,
             ataque: 8,
@@ -6954,6 +6996,7 @@ var campeones = [{
     {
         descripcion: "el Virtuoso",
         nombre: "Jhin",
+        precio: 6300,
         estadisticas: {
             dificultad: 6,
             ataque: 10,
@@ -6964,6 +7007,7 @@ var campeones = [{
     {
         descripcion: "la Bala Perdida",
         nombre: "Jinx",
+        precio: 6300,
         estadisticas: {
             dificultad: 6,
             ataque: 9,
@@ -6974,6 +7018,7 @@ var campeones = [{
     {
         descripcion: "el Esp\u00edritu de la Venganza",
         nombre: "Kalista",
+        precio: 6300,
         estadisticas: {
             dificultad: 7,
             ataque: 8,
@@ -6984,6 +7029,7 @@ var campeones = [{
     {
         descripcion: "la Iluminada",
         nombre: "Karma",
+        precio: 3150,
         estadisticas: {
             dificultad: 5,
             ataque: 1,
@@ -6994,6 +7040,7 @@ var campeones = [{
     {
         descripcion: "el Canto de la Muerte",
         nombre: "Karthus",
+        precio: 3150,
         estadisticas: {
             dificultad: 7,
             ataque: 2,
@@ -7004,6 +7051,7 @@ var campeones = [{
     {
         descripcion: "el Caminante del Vac\u00edo",
         nombre: "Kassadin",
+        precio: 3150,
         estadisticas: {
             dificultad: 8,
             ataque: 3,
@@ -7014,6 +7062,7 @@ var campeones = [{
     {
         descripcion: "la Daga Siniestra",
         nombre: "Katarina",
+        precio: 3150,
         estadisticas: {
             dificultad: 8,
             ataque: 4,
@@ -7024,6 +7073,7 @@ var campeones = [{
     {
         descripcion: "la Justiciera",
         nombre: "Kayle",
+        precio: 450,
         estadisticas: {
             dificultad: 7,
             ataque: 6,
@@ -7034,6 +7084,7 @@ var campeones = [{
     {
         descripcion: "el Coraz\u00f3n de la Tempestad",
         nombre: "Kennen",
+        precio: 4800,
         estadisticas: {
             dificultad: 4,
             ataque: 6,
@@ -7044,6 +7095,7 @@ var campeones = [{
     {
         descripcion: "el Saqueador del Vac\u00edo",
         nombre: "Kha'Zix",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 9,
@@ -7055,6 +7107,7 @@ var campeones = [{
     {
         descripcion: "los Cazadores Eternos",
         nombre: "Kindred",
+        precio: 6300,
         estadisticas: {
             dificultad: 4,
             ataque: 8,
@@ -7065,6 +7118,7 @@ var campeones = [{
     {
         descripcion: "el Jinete Cascarrabias",
         nombre: "Kled",
+        precio: 6300,
         estadisticas: {
             dificultad: 7,
             ataque: 8,
@@ -7075,6 +7129,7 @@ var campeones = [{
     {
         descripcion: "la Boca del Abismo",
         nombre: "Kog'Maw",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 8,
@@ -7086,6 +7141,7 @@ var campeones = [{
     {
         descripcion: "la Maquiav\u00e9lica",
         nombre: "LeBlanc",
+        precio: 3150,
         estadisticas: {
             dificultad: 9,
             ataque: 1,
@@ -7096,6 +7152,7 @@ var campeones = [{
     {
         descripcion: "el Monje Ciego",
         nombre: "Lee Sin",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 8,
@@ -7107,6 +7164,7 @@ var campeones = [{
     {
         descripcion: "el Radiante Amanecer",
         nombre: "Leona",
+        precio: 4800,
         estadisticas: {
             dificultad: 4,
             ataque: 4,
@@ -7117,6 +7175,7 @@ var campeones = [{
     {
         descripcion: "la Bruja de Hielo",
         nombre: "Lissandra",
+        precio: 6300,
         estadisticas: {
             dificultad: 6,
             ataque: 2,
@@ -7127,6 +7186,7 @@ var campeones = [{
     {
         descripcion: "el Purificador",
         nombre: "Lucian",
+        precio: 6300,
         estadisticas: {
             dificultad: 6,
             ataque: 8,
@@ -7137,6 +7197,7 @@ var campeones = [{
     {
         descripcion: "el Hada Hechicera",
         nombre: "Lulu",
+        precio: 4800,
         estadisticas: {
             dificultad: 5,
             ataque: 4,
@@ -7147,6 +7208,7 @@ var campeones = [{
     {
         descripcion: "la Dama Luminosa",
         nombre: "Lux",
+        precio: 3150,
         estadisticas: {
             dificultad: 5,
             ataque: 2,
@@ -7157,6 +7219,7 @@ var campeones = [{
     {
         descripcion: "la Espada Wuju",
         nombre: "Maestro Yi",
+        precio: 450,
         estadisticas: {
             dificultad: 4,
             ataque: 10,
@@ -7168,6 +7231,7 @@ var campeones = [{
     {
         descripcion: "el Fragmento del Monolito",
         nombre: "Malphite",
+        precio: 1350,
         estadisticas: {
             dificultad: 2,
             ataque: 5,
@@ -7178,6 +7242,7 @@ var campeones = [{
     {
         descripcion: "el Profeta del Vac\u00edo",
         nombre: "Malzahar",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 2,
@@ -7188,6 +7253,7 @@ var campeones = [{
     {
         descripcion: "el Treant Retorcido",
         nombre: "Maokai",
+        precio: 4800,
         estadisticas: {
             dificultad: 3,
             ataque: 3,
@@ -7198,6 +7264,7 @@ var campeones = [{
     {
         descripcion: "la Cazarrecompensas",
         nombre: "Miss Fortune",
+        precio: 3150,
         estadisticas: {
             dificultad: 1,
             ataque: 8,
@@ -7209,6 +7276,7 @@ var campeones = [{
     {
         descripcion: "el Se\u00f1or de la Muerte",
         nombre: "Mordekaiser",
+        precio: 1350,
         estadisticas: {
             dificultad: 4,
             ataque: 4,
@@ -7219,6 +7287,7 @@ var campeones = [{
     {
         descripcion: "el \u00c1ngel Ca\u00eddo",
         nombre: "Morgana",
+        precio: 1350,
         estadisticas: {
             dificultad: 1,
             ataque: 1,
@@ -7229,6 +7298,7 @@ var campeones = [{
     {
         descripcion: "la Invocadora de Mareas",
         nombre: "Nami",
+        precio: 6300,
         estadisticas: {
             dificultad: 5,
             ataque: 4,
@@ -7239,6 +7309,7 @@ var campeones = [{
     {
         descripcion: "el Curador de las Arenas",
         nombre: "Nasus",
+        precio: 1350,
         estadisticas: {
             dificultad: 6,
             ataque: 7,
@@ -7249,6 +7320,7 @@ var campeones = [{
     {
         descripcion: "el Tit\u00e1n de las Profundidades",
         nombre: "Nautilus",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 4,
@@ -7259,6 +7331,7 @@ var campeones = [{
     {
         descripcion: "la Cazadora Salvaje",
         nombre: "Nidalee",
+        precio: 3150,
         estadisticas: {
             dificultad: 8,
             ataque: 5,
@@ -7269,6 +7342,7 @@ var campeones = [{
     {
         descripcion: "la Pesadilla Eterna",
         nombre: "Nocturne",
+        precio: 4800,
         estadisticas: {
             dificultad: 4,
             ataque: 9,
@@ -7279,6 +7353,7 @@ var campeones = [{
     {
         descripcion: "el Domador de Yetis",
         nombre: "Nunu",
+        precio: 450,
         estadisticas: {
             dificultad: 4,
             ataque: 4,
@@ -7289,6 +7364,7 @@ var campeones = [{
     {
         descripcion: "el Berserker",
         nombre: "Olaf",
+        precio: 3150,
         estadisticas: {
             dificultad: 3,
             ataque: 9,
@@ -7299,6 +7375,7 @@ var campeones = [{
     {
         descripcion: "la Doncella Mec\u00e1nica",
         nombre: "Orianna",
+        precio: 4800,
         estadisticas: {
             dificultad: 7,
             ataque: 4,
@@ -7309,6 +7386,7 @@ var campeones = [{
     {
         descripcion: "el Artesano de la Guerra",
         nombre: "Pantheon",
+        precio: 3150,
         estadisticas: {
             dificultad: 4,
             ataque: 9,
@@ -7319,6 +7397,7 @@ var campeones = [{
     {
         descripcion: "la Guardiana del Martillo",
         nombre: "Poppy",
+        precio: 450,
         estadisticas: {
             dificultad: 6,
             ataque: 6,
@@ -7329,6 +7408,7 @@ var campeones = [{
     {
         descripcion: "las Alas de Demacia",
         nombre: "Quinn",
+        precio: 6300,
         estadisticas: {
             dificultad: 5,
             ataque: 9,
@@ -7339,6 +7419,7 @@ var campeones = [{
     {
         descripcion: "el Armadurillo",
         nombre: "Rammus",
+        precio: 1350,
         estadisticas: {
             dificultad: 5,
             ataque: 4,
@@ -7349,6 +7430,7 @@ var campeones = [{
     {
         descripcion: "la Excavadora del Vac\u00edo",
         nombre: "Rek'Sai",
+        precio: 6300,
         estadisticas: {
             dificultad: 3,
             ataque: 8,
@@ -7360,6 +7442,7 @@ var campeones = [{
     {
         descripcion: "el Carnicero de las Arenas",
         nombre: "Renekton",
+        precio: 4800,
         estadisticas: {
             dificultad: 3,
             ataque: 8,
@@ -7370,6 +7453,7 @@ var campeones = [{
     {
         descripcion: "el Orgullo Acechante",
         nombre: "Rengar",
+        precio: 4800,
         estadisticas: {
             dificultad: 8,
             ataque: 7,
@@ -7380,6 +7464,7 @@ var campeones = [{
     {
         descripcion: "la Desterrada",
         nombre: "Riven",
+        precio: 4800,
         estadisticas: {
             dificultad: 8,
             ataque: 8,
@@ -7390,6 +7475,7 @@ var campeones = [{
     {
         descripcion: "la Amenaza Mec\u00e1nica",
         nombre: "Rumble",
+        precio: 4800,
         estadisticas: {
             dificultad: 10,
             ataque: 3,
@@ -7400,6 +7486,7 @@ var campeones = [{
     {
         descripcion: "el Mago R\u00fanico",
         nombre: "Ryze",
+        precio: 450,
         estadisticas: {
             dificultad: 7,
             ataque: 2,
@@ -7410,6 +7497,7 @@ var campeones = [{
     {
         descripcion: "la Ira del Invierno",
         nombre: "Sejuani",
+        precio: 4800,
         estadisticas: {
             dificultad: 4,
             ataque: 5,
@@ -7420,6 +7508,7 @@ var campeones = [{
     {
         descripcion: "el Buf\u00f3n Siniestro",
         nombre: "Shaco",
+        precio: 3150,
         estadisticas: {
             dificultad: 9,
             ataque: 8,
@@ -7430,6 +7519,7 @@ var campeones = [{
     {
         descripcion: "el Ojo del Crep\u00fasculo",
         nombre: "Shen",
+        precio: 3150,
         estadisticas: {
             dificultad: 4,
             ataque: 3,
@@ -7440,6 +7530,7 @@ var campeones = [{
     {
         descripcion: "la Hija del Drag\u00f3n",
         nombre: "Shyvana",
+        precio: 3150,
         estadisticas: {
             dificultad: 4,
             ataque: 8,
@@ -7450,6 +7541,7 @@ var campeones = [{
     {
         descripcion: "el Qu\u00edmico Loco",
         nombre: "Singed",
+        precio: 450,
         estadisticas: {
             dificultad: 5,
             ataque: 4,
@@ -7460,6 +7552,7 @@ var campeones = [{
     {
         descripcion: "el Coloso no Muerto",
         nombre: "Sion",
+        precio: 1350,
         estadisticas: {
             dificultad: 5,
             ataque: 5,
@@ -7470,6 +7563,7 @@ var campeones = [{
     {
         descripcion: "la Se\u00f1ora de la Batalla",
         nombre: "Sivir",
+        precio: 450,
         estadisticas: {
             dificultad: 4,
             ataque: 9,
@@ -7480,6 +7574,7 @@ var campeones = [{
     {
         descripcion: "la Vanguardia de Cristal",
         nombre: "Skarner",
+        precio: 4800,
         estadisticas: {
             dificultad: 5,
             ataque: 7,
@@ -7490,6 +7585,7 @@ var campeones = [{
     {
         descripcion: "la Virtuosa de las Cuerdas",
         nombre: "Sona",
+        precio: 3150,
         estadisticas: {
             dificultad: 4,
             ataque: 5,
@@ -7500,6 +7596,7 @@ var campeones = [{
     {
         descripcion: "la Hija de las Estrellas",
         nombre: "Soraka",
+        precio: 450,
         estadisticas: {
             dificultad: 3,
             ataque: 2,
@@ -7510,6 +7607,7 @@ var campeones = [{
     {
         descripcion: "el Estratega Maestro",
         nombre: "Swain",
+        precio: 4800,
         estadisticas: {
             dificultad: 8,
             ataque: 2,
@@ -7520,6 +7618,7 @@ var campeones = [{
     {
         descripcion: "la Soberana Oscura",
         nombre: "Syndra",
+        precio: 4800,
         estadisticas: {
             dificultad: 8,
             ataque: 2,
@@ -7530,6 +7629,7 @@ var campeones = [{
     {
         descripcion: "el Rey del R\u00edo",
         nombre: "Tahm Kench",
+        precio: 6300,
         estadisticas: {
             dificultad: 5,
             ataque: 3,
@@ -7541,6 +7641,7 @@ var campeones = [{
     {
         descripcion: "la Tejedora de Piedra",
         nombre: "Taliyah",
+        precio: 6300,
         estadisticas: {
             dificultad: 5,
             ataque: 1,
@@ -7551,6 +7652,7 @@ var campeones = [{
     {
         descripcion: "la Sombra de la Navaja",
         nombre: "Talon",
+        precio: 4800,
         estadisticas: {
             dificultad: 7,
             ataque: 9,
@@ -7561,6 +7663,7 @@ var campeones = [{
     {
         descripcion: "el Escudo de Valoran",
         nombre: "Taric",
+        precio: 1350,
         estadisticas: {
             dificultad: 3,
             ataque: 4,
@@ -7571,6 +7674,7 @@ var campeones = [{
     {
         descripcion: "el Explorador Veloz",
         nombre: "Teemo",
+        precio: 1350,
         estadisticas: {
             dificultad: 6,
             ataque: 5,
@@ -7581,6 +7685,7 @@ var campeones = [{
     {
         descripcion: "el Carcelero Implacable",
         nombre: "Thresh",
+        precio: 6300,
         estadisticas: {
             dificultad: 7,
             ataque: 5,
@@ -7591,6 +7696,7 @@ var campeones = [{
     {
         descripcion: "la Artillera Yordle",
         nombre: "Tristana",
+        precio: 1350,
         estadisticas: {
             dificultad: 4,
             ataque: 9,
@@ -7601,6 +7707,7 @@ var campeones = [{
     {
         descripcion: "el Rey de los Troles",
         nombre: "Trundle",
+        precio: 4800,
         estadisticas: {
             dificultad: 5,
             ataque: 7,
@@ -7611,6 +7718,7 @@ var campeones = [{
     {
         descripcion: "el Rey B\u00e1rbaro",
         nombre: "Tryndamere",
+        precio: 1350,
         estadisticas: {
             dificultad: 5,
             ataque: 10,
@@ -7621,6 +7729,7 @@ var campeones = [{
     {
         descripcion: "el Maestro de las Cartas",
         nombre: "Twisted Fate",
+        precio: 1350,
         estadisticas: {
             dificultad: 9,
             ataque: 6,
@@ -7632,6 +7741,7 @@ var campeones = [{
     {
         descripcion: "la Rata Mutante",
         nombre: "Twitch",
+        precio: 3150,
         estadisticas: {
             dificultad: 6,
             ataque: 9,
@@ -7642,6 +7752,7 @@ var campeones = [{
     {
         descripcion: "el Cambiapieles",
         nombre: "Udyr",
+        precio: 1350,
         estadisticas: {
             dificultad: 7,
             ataque: 8,
@@ -7652,6 +7763,7 @@ var campeones = [{
     {
         descripcion: "el Orgullo del Verdugo",
         nombre: "Urgot",
+        precio: 3150,
         estadisticas: {
             dificultad: 8,
             ataque: 8,
@@ -7662,6 +7774,7 @@ var campeones = [{
     {
         descripcion: "la Flecha del Castigo",
         nombre: "Varus",
+        precio: 4800,
         estadisticas: {
             dificultad: 2,
             ataque: 7,
@@ -7672,6 +7785,7 @@ var campeones = [{
     {
         descripcion: "la Cazadora Nocturna",
         nombre: "Vayne",
+        precio: 4800,
         estadisticas: {
             dificultad: 8,
             ataque: 10,
@@ -7682,6 +7796,7 @@ var campeones = [{
     {
         descripcion: "el Peque\u00f1o Maestro del Mal",
         nombre: "Veigar",
+        precio: 1350,
         estadisticas: {
             dificultad: 7,
             ataque: 2,
@@ -7692,6 +7807,7 @@ var campeones = [{
     {
         descripcion: "el Ojo del Vac\u00edo",
         nombre: "Vel'Koz",
+        precio: 6300,
         estadisticas: {
             dificultad: 8,
             ataque: 2,
@@ -7703,6 +7819,7 @@ var campeones = [{
     {
         descripcion: "la Vigilante de Pilt\u00f3ver",
         nombre: "Vi",
+        precio: 6300,
         estadisticas: {
             dificultad: 4,
             ataque: 8,
@@ -7713,6 +7830,7 @@ var campeones = [{
     {
         descripcion: "el Heraldo Mec\u00e1nico",
         nombre: "Viktor",
+        precio: 4800,
         estadisticas: {
             dificultad: 9,
             ataque: 2,
@@ -7723,6 +7841,7 @@ var campeones = [{
     {
         descripcion: "el Segador Carmes\u00ed",
         nombre: "Vladimir",
+        precio: 4800,
         estadisticas: {
             dificultad: 7,
             ataque: 2,
@@ -7733,6 +7852,7 @@ var campeones = [{
     {
         descripcion: "el Rugir del Trueno",
         nombre: "Volibear",
+        precio: 4800,
         estadisticas: {
             dificultad: 3,
             ataque: 7,
@@ -7743,6 +7863,7 @@ var campeones = [{
     {
         descripcion: "el Cazador Sanguinario",
         nombre: "Warwick",
+        precio: 450,
         estadisticas: {
             dificultad: 3,
             ataque: 7,
@@ -7753,6 +7874,7 @@ var campeones = [{
     {
         descripcion: "el Rey de los Monos",
         nombre: "Wukong",
+        precio: 4800,
         estadisticas: {
             dificultad: 3,
             ataque: 8,
@@ -7764,6 +7886,7 @@ var campeones = [{
     {
         descripcion: "el Mago Ascendente",
         nombre: "Xerath",
+        precio: 4800,
         estadisticas: {
             dificultad: 8,
             ataque: 1,
@@ -7774,6 +7897,7 @@ var campeones = [{
     {
         descripcion: "el Senescal de Demacia",
         nombre: "Xin Zhao",
+        precio: 1350,
         estadisticas: {
             dificultad: 2,
             ataque: 8,
@@ -7785,6 +7909,7 @@ var campeones = [{
     {
         descripcion: "el Imperdonable",
         nombre: "Yasuo",
+        precio: 6300,
         estadisticas: {
             dificultad: 10,
             ataque: 8,
@@ -7795,6 +7920,7 @@ var campeones = [{
     {
         descripcion: "Pastor de Almas",
         nombre: "Yorick",
+        precio: 4800,
         estadisticas: {
             dificultad: 6,
             ataque: 6,
@@ -7805,6 +7931,7 @@ var campeones = [{
     {
         descripcion: "el Arma Secreta",
         nombre: "Zac",
+        precio: 6300,
         estadisticas: {
             dificultad: 8,
             ataque: 3,
@@ -7815,6 +7942,7 @@ var campeones = [{
     {
         descripcion: "el Maestro de las Sombras",
         nombre: "Zed",
+        precio: 6300,
         estadisticas: {
             dificultad: 7,
             ataque: 9,
@@ -7825,6 +7953,7 @@ var campeones = [{
     {
         descripcion: "el Experto en Hexplosivos",
         nombre: "Ziggs",
+        precio: 4800,
         estadisticas: {
             dificultad: 4,
             ataque: 2,
@@ -7835,6 +7964,7 @@ var campeones = [{
     {
         descripcion: "el Guardi\u00e1n del Tiempo",
         nombre: "Zilean",
+        precio: 1350,
         estadisticas: {
             dificultad: 6,
             ataque: 2,
@@ -7845,6 +7975,7 @@ var campeones = [{
     {
         descripcion: "el Despertar de las Espinas",
         nombre: "Zyra",
+        precio: 4800,
         estadisticas: {
             dificultad: 7,
             ataque: 4,
@@ -7861,61 +7992,69 @@ function getNombreCampeon(campeon) {
     }
     return campeon.nombre;
 }
-
+/*
 function createPromise(campeon) {
     var defered = Q.defer();
     var promise = defered.promise;
     var url = "http://gameinfo.las.leagueoflegends.com/es/game-info/champions/" + getNombreCampeon(campeon).toLowerCase();
     request.get(url, function(err, result) {
-        if (err) {
-            defered.reject(err);
-        } else {
+      if (err) {
+          defered.reject(err);
+      } else {
 
-            str = result.body;
-            let m;
+          str = result.body;
+          let m;
 
-            skins = []
-            var f = 0;
+          skins = []
+          var f = 0;
 
-            while ((m = regex.exec(str)) !== null) {
-                if (!f) {
-                    f += 1;
-                    continue;
-                }
-                if (m.index === regex.lastIndex) {
-                    regex.lastIndex++;
-                }
+          while ((m = regex.exec(str)) !== null) {
+              if (!f) {
+                  f += 1;
+                  continue;
+              }
+              if (m.index === regex.lastIndex) {
+                  regex.lastIndex++;
+              }
 
-                // The result can be accessed through the `m`-variable.
-                skins.push({
-                    nombre: m[1],
-                    splash: m[2],
-                    precio: 0
-                })
-            }
-        };
-        campeon.precio = 0
-        var valores = {"Tank": "tanque", "Support": "soporte", "Mage": "mago", "Fighter": "luchador", "Assassin": "asesino", "Marksman": "tirador"}
-        var cx = c2.data[getNombreCampeon(campeon)];
-        campeon.tipo = [];
-        cx.tags.forEach(function( tag) {
-          campeon.tipo.push(valores[tag]);
-        })
-        campeon.skins = skins;
-        defered.resolve(campeon);
+              // The result can be accessed through the `m`-variable.
+              skins.push({
+                  nombre: m[1],
+                  splash: m[2],
+                  precio: 0
+              })
+          }
+          var valores = {"Tank": "tanque", "Support": "soporte", "Mage": "mago", "Fighter": "luchador", "Assassin": "asesino", "Marksman": "tirador"}
+          var cx = c2.data[getNombreCampeon(campeon)];
+          campeon.tipo = [];
+          cx.tags.forEach(function( tag) {
+            campeon.tipo.push(valores[tag]);
+          })
+          campeon.skins = skins;
+          defered.resolve(campeon);
+      };
     });
     return promise;
 }
-
+*/
 var promesas = [];
 campeones.forEach(function(campeon) {
-    promesas.push(createPromise(campeon));
+  console.log('wget -c -O ' + getNombreCampeon(campeon) + 'P.png http://ddragon.leagueoflegends.com/cdn/6.24.1/img/passive/'+ getNombreCampeon(campeon) + '_Passive.png')
+  console.log('wget -c http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/' + getNombreCampeon(campeon) + 'P.png')
+  console.log('wget -c http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/' + getNombreCampeon(campeon) + 'Q.png')
+  console.log('wget -c http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/' + getNombreCampeon(campeon) + 'W.png')
+  console.log('wget -c http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/' + getNombreCampeon(campeon) + 'E.png')
+  console.log('wget -c http://ddragon.leagueoflegends.com/cdn/6.24.1/img/spell/' + getNombreCampeon(campeon) + 'R.png')
+//    promesas.push(createPromise(campeon));
 });
 
+/*
 Q.all(promesas).then(function(results) {
-        console.log(JSON.stringify(results, null, 2))
+    console.log("var campeones = " + JSON.stringify(results, null, 2);
     },
     function(err) {
         console.log("err");
         console.log(err);
     })
+
+*/

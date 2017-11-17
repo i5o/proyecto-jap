@@ -1,4 +1,5 @@
-var campeones = [{
+var campeones = [
+    {
         "descripcion": "la Espada de los Oscuros",
         "nombre": "Aatrox",
         "estadisticas": {
@@ -7,21 +8,21 @@ var campeones = [{
             "magia": 3,
             "defensa": 4
         },
-        "precio": 0,
+        "precio": 6300,
         "skins": [{
                 "nombre": "Aatrox Justiciero",
                 "splash": "Aatrox_1.jpg",
-                "precio": 0
+                "precio": 975
             },
             {
                 "nombre": "Aatrox Mecha",
                 "splash": "Aatrox_2.jpg",
-                "precio": 0
+                "precio": 1350
             },
             {
                 "nombre": "Aatrox Cazador Marino",
                 "splash": "Aatrox_3.jpg",
-                "precio": 0
+                "precio": 750
             }
         ],
         "tipo": [
@@ -32,47 +33,47 @@ var campeones = [{
     {
         "descripcion": "la Kumiho Ancestral",
         "nombre": "Ahri",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 3,
             "magia": 8,
             "defensa": 4
         },
-        "precio": 0,
         "skins": [{
                 "nombre": "Ahri Dinástica",
                 "splash": "Ahri_1.jpg",
-                "precio": 0
+                "precio": 975
             },
             {
                 "nombre": "Ahri de Medianoche",
                 "splash": "Ahri_2.jpg",
-                "precio": 0
+                "precio": 750
             },
             {
                 "nombre": "Ahri Raposa de Fuego",
                 "splash": "Ahri_3.jpg",
-                "precio": 0
+                "precio": 975
             },
             {
                 "nombre": "Ahri Estrella del Pop",
                 "splash": "Ahri_4.jpg",
-                "precio": 0
+                "precio": 975
             },
             {
                 "nombre": "Ahri Retadora",
                 "splash": "Ahri_5.jpg",
-                "precio": 0
+                "precio": 975
             },
             {
                 "nombre": "Ahri Academia",
                 "splash": "Ahri_6.jpg",
-                "precio": 0
+                "precio": 750
             },
             {
                 "nombre": "Ahri de Arcadia",
                 "splash": "Ahri_7.jpg",
-                "precio": 0
+                "precio": 1350
             }
         ],
         "tipo": [
@@ -83,17 +84,17 @@ var campeones = [{
     {
         "descripcion": "el Puño de la Sombra",
         "nombre": "Akali",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 5,
             "magia": 8,
             "defensa": 3
         },
-        "precio": 0,
         "skins": [{
                 "nombre": "Akali Aguijón",
                 "splash": "Akali_1.jpg",
-                "precio": 0
+                "precio": 750
             },
             {
                 "nombre": "Akali Carmesí",
@@ -108,12 +109,12 @@ var campeones = [{
             {
                 "nombre": "Enfermera Akali",
                 "splash": "Akali_4.jpg",
-                "precio": 0
+                "precio": 975
             },
             {
                 "nombre": "Akali Luna de Sangre",
                 "splash": "Akali_5.jpg",
-                "precio": 0
+                "precio": 975
             },
             {
                 "nombre": "Akali Colmillo de Plata",
@@ -123,12 +124,12 @@ var campeones = [{
             {
                 "nombre": "Akali Cazadora de Cabezas",
                 "splash": "Akali_7.jpg",
-                "precio": 0
+                "precio": 1350
             },
             {
                 "nombre": "Akali Sashimi",
                 "splash": "Akali_8.jpg",
-                "precio": 0
+                "precio": 750
             }
         ],
         "tipo": [
@@ -138,13 +139,13 @@ var campeones = [{
     {
         "descripcion": "el Minotauro",
         "nombre": "Alistar",
+        "precio": 0,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 6,
             "magia": 5,
             "defensa": 9
         },
-        "precio": 0,
         "skins": [{
                 "nombre": "Alistar Negro",
                 "splash": "Alistar_1.jpg",
@@ -199,13 +200,13 @@ var campeones = [{
     {
         "descripcion": "la Momia Triste",
         "nombre": "Amumu",
+        "precio": 0,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 2,
             "magia": 8,
             "defensa": 6
         },
-        "precio": 0,
         "skins": [{
                 "nombre": "Faraón Amumu",
                 "splash": "Amumu_1.jpg",
@@ -255,13 +256,13 @@ var campeones = [{
     {
         "descripcion": "la Criofénix",
         "nombre": "Anivia",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 10,
             "ataque": 1,
             "magia": 10,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -301,13 +302,13 @@ var campeones = [{
     {
         "descripcion": "la Hija de la Oscuridad",
         "nombre": "Annie",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 2,
             "magia": 10,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -366,13 +367,13 @@ var campeones = [{
     {
         "descripcion": "la Arquera de Hielo",
         "nombre": "Ashe",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 7,
             "magia": 2,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "soporte"
@@ -422,6 +423,7 @@ var campeones = [{
     {
         "descripcion": "el Forjador de Estrellas",
         "nombre": "Aurelion Sol",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 2,
@@ -429,7 +431,6 @@ var campeones = [{
             "defensa": 3
         },
         "nombrelistado": "AurelionSol",
-        "precio": 0,
         "tipo": [
             "mago",
             "luchador"
@@ -443,13 +444,13 @@ var campeones = [{
     {
         "descripcion": "el Emperador de las Arenas",
         "nombre": "Azir",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 6,
             "magia": 8,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "tirador"
@@ -474,6 +475,7 @@ var campeones = [{
     {
         "descripcion": "el Guardián Trotamundos",
         "nombre": "Bardo",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 4,
@@ -481,7 +483,6 @@ var campeones = [{
             "defensa": 4
         },
         "nombrelistado": "Bard",
-        "precio": 0,
         "tipo": [
             "soporte",
             "mago"
@@ -506,13 +507,13 @@ var campeones = [{
     {
         "descripcion": "el Gran Gólem de Vapor",
         "nombre": "Blitzcrank",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 4,
             "magia": 5,
             "defensa": 8
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -562,13 +563,13 @@ var campeones = [{
     {
         "descripcion": "la Venganza Ardiente",
         "nombre": "Brand",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 2,
             "magia": 9,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -602,13 +603,13 @@ var campeones = [{
     {
         "descripcion": "el Corazón del Fréljord",
         "nombre": "Braum",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 3,
             "magia": 4,
             "defensa": 9
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "tanque"
@@ -638,13 +639,13 @@ var campeones = [{
     {
         "descripcion": "la Sheriff de Piltóver",
         "nombre": "Caitlyn",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 8,
             "magia": 2,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -688,13 +689,13 @@ var campeones = [{
     {
         "descripcion": "la Sombra de Acero",
         "nombre": "Camille",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 8,
             "magia": 3,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -708,13 +709,13 @@ var campeones = [{
     {
         "descripcion": "el Abrazo de la Serpiente",
         "nombre": "Cassiopeia",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 10,
             "ataque": 2,
             "magia": 9,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -743,6 +744,7 @@ var campeones = [{
     {
         "descripcion": "el Terror del Vacío",
         "nombre": "Cho'Gath",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 3,
@@ -750,7 +752,6 @@ var campeones = [{
             "defensa": 7
         },
         "nombrelistado": "Chogath",
-        "precio": 0,
         "tipo": [
             "tanque",
             "mago"
@@ -790,13 +791,13 @@ var campeones = [{
     {
         "descripcion": "el Bombardero Osado",
         "nombre": "Corki",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 8,
             "magia": 6,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -845,13 +846,13 @@ var campeones = [{
     {
         "descripcion": "la Mano de Noxus",
         "nombre": "Darius",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 2,
             "ataque": 9,
             "magia": 1,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -886,13 +887,13 @@ var campeones = [{
     {
         "descripcion": "el Desdén de la Luna",
         "nombre": "Diana",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 7,
             "magia": 8,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "mago"
@@ -917,6 +918,7 @@ var campeones = [{
     {
         "descripcion": "el Loco de Zaun",
         "nombre": "Dr. Mundo",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 5,
@@ -924,7 +926,6 @@ var campeones = [{
             "defensa": 7
         },
         "nombrelistado": "DrMundo",
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -979,13 +980,13 @@ var campeones = [{
     {
         "descripcion": "el Glorioso Ejecutor",
         "nombre": "Draven",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 9,
             "magia": 1,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -1024,13 +1025,13 @@ var campeones = [{
     {
         "descripcion": "el Joven que Fragmentó el Tiempo",
         "nombre": "Ekko",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 5,
             "magia": 7,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -1055,13 +1056,13 @@ var campeones = [{
     {
         "descripcion": "la Reina de las Arañas",
         "nombre": "Elise",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 6,
             "magia": 7,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "luchador"
@@ -1091,13 +1092,13 @@ var campeones = [{
     {
         "descripcion": "la Hacedora de Viudas",
         "nombre": "Evelynn",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 10,
             "ataque": 4,
             "magia": 7,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "mago"
@@ -1127,13 +1128,13 @@ var campeones = [{
     {
         "descripcion": "el Explorador Pródigo",
         "nombre": "Ezreal",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 7,
             "magia": 6,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "mago"
@@ -1188,13 +1189,13 @@ var campeones = [{
     {
         "descripcion": "el Mensajero de la Muerte",
         "nombre": "Fiddlesticks",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 2,
             "magia": 9,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -1244,13 +1245,13 @@ var campeones = [{
     {
         "descripcion": "la Gran Duelista",
         "nombre": "Fiora",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 10,
             "magia": 2,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -1285,13 +1286,13 @@ var campeones = [{
     {
         "descripcion": "el Bromista de las Mareas",
         "nombre": "Fizz",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 6,
             "magia": 7,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -1331,13 +1332,13 @@ var campeones = [{
     {
         "descripcion": "la Tristeza del Guardián",
         "nombre": "Galio",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 3,
             "magia": 6,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "mago"
@@ -1372,13 +1373,13 @@ var campeones = [{
     {
         "descripcion": "el Azote de los Mares",
         "nombre": "Gangplank",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 7,
             "magia": 4,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador"
         ],
@@ -1422,13 +1423,13 @@ var campeones = [{
     {
         "descripcion": "el Poder de Demacia",
         "nombre": "Garen",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 7,
             "magia": 1,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -1473,13 +1474,13 @@ var campeones = [{
     {
         "descripcion": "el Eslabón Perdido",
         "nombre": "Gnar",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 6,
             "magia": 5,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -1509,13 +1510,13 @@ var campeones = [{
     {
         "descripcion": "el Revoltoso",
         "nombre": "Gragas",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 4,
             "magia": 6,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "mago"
@@ -1570,13 +1571,13 @@ var campeones = [{
     {
         "descripcion": "el Forajido",
         "nombre": "Graves",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 8,
             "magia": 3,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -1620,13 +1621,13 @@ var campeones = [{
     {
         "descripcion": "la Sombra de la Guerra",
         "nombre": "Hecarim",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 8,
             "magia": 4,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -1666,13 +1667,13 @@ var campeones = [{
     {
         "descripcion": "el Venerable Inventor",
         "nombre": "Heimerdinger",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 2,
             "magia": 8,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -1707,13 +1708,13 @@ var campeones = [{
     {
         "descripcion": "la Sacerdotisa del Kraken",
         "nombre": "Illaoi",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 8,
             "magia": 3,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -1727,13 +1728,13 @@ var campeones = [{
     {
         "descripcion": "la Voluntad de las Hojas",
         "nombre": "Irelia",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 7,
             "magia": 5,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -1768,13 +1769,13 @@ var campeones = [{
     {
         "descripcion": "el Árbol Padre",
         "nombre": "Ivern",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 3,
             "magia": 7,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "mago"
@@ -1788,13 +1789,13 @@ var campeones = [{
     {
         "descripcion": "la Furia de la Tormenta",
         "nombre": "Janna",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 3,
             "magia": 7,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "mago"
@@ -1839,6 +1840,7 @@ var campeones = [{
     {
         "descripcion": "el Ejemplo de Demacia",
         "nombre": "Jarvan IV",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 6,
@@ -1846,7 +1848,6 @@ var campeones = [{
             "defensa": 8
         },
         "nombrelistado": "JarvanIV",
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -1886,13 +1887,13 @@ var campeones = [{
     {
         "descripcion": "el Maestro de Armas",
         "nombre": "Jax",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 7,
             "magia": 7,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -1947,13 +1948,13 @@ var campeones = [{
     {
         "descripcion": "el Defensor del Mañana",
         "nombre": "Jayce",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 8,
             "magia": 3,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tirador"
@@ -1983,13 +1984,13 @@ var campeones = [{
     {
         "descripcion": "el Virtuoso",
         "nombre": "Jhin",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 10,
             "magia": 6,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "asesino"
@@ -2003,13 +2004,13 @@ var campeones = [{
     {
         "descripcion": "la Bala Perdida",
         "nombre": "Jinx",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 9,
             "magia": 4,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -2038,13 +2039,13 @@ var campeones = [{
     {
         "descripcion": "el Espíritu de la Venganza",
         "nombre": "Kalista",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 8,
             "magia": 4,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -2068,13 +2069,13 @@ var campeones = [{
     {
         "descripcion": "la Iluminada",
         "nombre": "Karma",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 1,
             "magia": 8,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -2114,13 +2115,13 @@ var campeones = [{
     {
         "descripcion": "el Canto de la Muerte",
         "nombre": "Karthus",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 2,
             "magia": 10,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -2159,13 +2160,13 @@ var campeones = [{
     {
         "descripcion": "el Caminante del Vacío",
         "nombre": "Kassadin",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 3,
             "magia": 8,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "mago"
@@ -2200,13 +2201,13 @@ var campeones = [{
     {
         "descripcion": "la Daga Siniestra",
         "nombre": "Katarina",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 4,
             "magia": 9,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "mago"
@@ -2261,13 +2262,13 @@ var campeones = [{
     {
         "descripcion": "la Justiciera",
         "nombre": "Kayle",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 6,
             "magia": 7,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "soporte"
@@ -2317,13 +2318,13 @@ var campeones = [{
     {
         "descripcion": "el Corazón de la Tempestad",
         "nombre": "Kennen",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 6,
             "magia": 7,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "tirador"
@@ -2363,6 +2364,7 @@ var campeones = [{
     {
         "descripcion": "el Saqueador del Vacío",
         "nombre": "Kha'Zix",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 9,
@@ -2370,7 +2372,6 @@ var campeones = [{
             "defensa": 4
         },
         "nombrelistado": "Khazix",
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -2395,13 +2396,13 @@ var campeones = [{
     {
         "descripcion": "los Cazadores Eternos",
         "nombre": "Kindred",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 8,
             "magia": 2,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -2420,13 +2421,13 @@ var campeones = [{
     {
         "descripcion": "el Jinete Cascarrabias",
         "nombre": "Kled",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 8,
             "magia": 2,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -2440,6 +2441,7 @@ var campeones = [{
     {
         "descripcion": "la Boca del Abismo",
         "nombre": "Kog'Maw",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 8,
@@ -2447,7 +2449,6 @@ var campeones = [{
             "defensa": 2
         },
         "nombrelistado": "KogMaw",
-        "precio": 0,
         "tipo": [
             "tirador",
             "mago"
@@ -2497,13 +2498,13 @@ var campeones = [{
     {
         "descripcion": "la Maquiavélica",
         "nombre": "LeBlanc",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 1,
             "magia": 10,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "mago"
@@ -2538,6 +2539,7 @@ var campeones = [{
     {
         "descripcion": "el Monje Ciego",
         "nombre": "Lee Sin",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 8,
@@ -2545,7 +2547,6 @@ var campeones = [{
             "defensa": 5
         },
         "nombrelistado": "LeeSin",
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -2590,13 +2591,13 @@ var campeones = [{
     {
         "descripcion": "el Radiante Amanecer",
         "nombre": "Leona",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 4,
             "magia": 3,
             "defensa": 8
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "soporte"
@@ -2636,13 +2637,13 @@ var campeones = [{
     {
         "descripcion": "la Bruja de Hielo",
         "nombre": "Lissandra",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 2,
             "magia": 8,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -2666,13 +2667,13 @@ var campeones = [{
     {
         "descripcion": "el Purificador",
         "nombre": "Lucian",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 8,
             "magia": 3,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -2696,13 +2697,13 @@ var campeones = [{
     {
         "descripcion": "el Hada Hechicera",
         "nombre": "Lulu",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 4,
             "magia": 7,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "mago"
@@ -2742,13 +2743,13 @@ var campeones = [{
     {
         "descripcion": "la Dama Luminosa",
         "nombre": "Lux",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 2,
             "magia": 9,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -2793,6 +2794,7 @@ var campeones = [{
     {
         "descripcion": "la Espada Wuju",
         "nombre": "Maestro Yi",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 10,
@@ -2800,7 +2802,6 @@ var campeones = [{
             "defensa": 4
         },
         "nombrelistado": "MasterYi",
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -2840,13 +2841,13 @@ var campeones = [{
     {
         "descripcion": "el Fragmento del Monolito",
         "nombre": "Malphite",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 2,
             "ataque": 5,
             "magia": 7,
             "defensa": 9
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -2891,13 +2892,13 @@ var campeones = [{
     {
         "descripcion": "el Profeta del Vacío",
         "nombre": "Malzahar",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 2,
             "magia": 9,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "asesino"
@@ -2932,13 +2933,13 @@ var campeones = [{
     {
         "descripcion": "el Treant Retorcido",
         "nombre": "Maokai",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 3,
             "magia": 6,
             "defensa": 8
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "mago"
@@ -2983,6 +2984,7 @@ var campeones = [{
     {
         "descripcion": "la Cazarrecompensas",
         "nombre": "Miss Fortune",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 1,
             "ataque": 8,
@@ -2990,7 +2992,6 @@ var campeones = [{
             "defensa": 2
         },
         "nombrelistado": "MissFortune",
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -3044,13 +3045,13 @@ var campeones = [{
     {
         "descripcion": "el Señor de la Muerte",
         "nombre": "Mordekaiser",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 4,
             "magia": 7,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador"
         ],
@@ -3084,13 +3085,13 @@ var campeones = [{
     {
         "descripcion": "el Ángel Caído",
         "nombre": "Morgana",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 1,
             "ataque": 1,
             "magia": 8,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -3140,13 +3141,13 @@ var campeones = [{
     {
         "descripcion": "la Invocadora de Mareas",
         "nombre": "Nami",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 4,
             "magia": 7,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "mago"
@@ -3176,13 +3177,13 @@ var campeones = [{
     {
         "descripcion": "el Curador de las Arenas",
         "nombre": "Nasus",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 7,
             "magia": 6,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -3227,13 +3228,13 @@ var campeones = [{
     {
         "descripcion": "el Titán de las Profundidades",
         "nombre": "Nautilus",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 4,
             "magia": 6,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -3268,13 +3269,13 @@ var campeones = [{
     {
         "descripcion": "la Cazadora Salvaje",
         "nombre": "Nidalee",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 5,
             "magia": 7,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -3324,13 +3325,13 @@ var campeones = [{
     {
         "descripcion": "la Pesadilla Eterna",
         "nombre": "Nocturne",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 9,
             "magia": 2,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -3370,13 +3371,13 @@ var campeones = [{
     {
         "descripcion": "el Domador de Yetis",
         "nombre": "Nunu",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 4,
             "magia": 7,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "luchador"
@@ -3421,13 +3422,13 @@ var campeones = [{
     {
         "descripcion": "el Berserker",
         "nombre": "Olaf",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 9,
             "magia": 3,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -3467,13 +3468,13 @@ var campeones = [{
     {
         "descripcion": "la Doncella Mecánica",
         "nombre": "Orianna",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 4,
             "magia": 9,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -3513,13 +3514,13 @@ var campeones = [{
     {
         "descripcion": "el Artesano de la Guerra",
         "nombre": "Pantheon",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 9,
             "magia": 3,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -3569,13 +3570,13 @@ var campeones = [{
     {
         "descripcion": "la Guardiana del Martillo",
         "nombre": "Poppy",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 6,
             "magia": 2,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -3620,13 +3621,13 @@ var campeones = [{
     {
         "descripcion": "las Alas de Demacia",
         "nombre": "Quinn",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 9,
             "magia": 2,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "luchador"
@@ -3651,13 +3652,13 @@ var campeones = [{
     {
         "descripcion": "el Armadurillo",
         "nombre": "Rammus",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 4,
             "magia": 5,
             "defensa": 10
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -3702,6 +3703,7 @@ var campeones = [{
     {
         "descripcion": "la Excavadora del Vacío",
         "nombre": "Rek'Sai",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 8,
@@ -3709,7 +3711,6 @@ var campeones = [{
             "defensa": 5
         },
         "nombrelistado": "RekSai",
-        "precio": 0,
         "tipo": [
             "luchador"
         ],
@@ -3728,13 +3729,13 @@ var campeones = [{
     {
         "descripcion": "el Carnicero de las Arenas",
         "nombre": "Renekton",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 8,
             "magia": 2,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -3784,13 +3785,13 @@ var campeones = [{
     {
         "descripcion": "el Orgullo Acechante",
         "nombre": "Rengar",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 7,
             "magia": 2,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -3815,13 +3816,13 @@ var campeones = [{
     {
         "descripcion": "la Desterrada",
         "nombre": "Riven",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 8,
             "magia": 1,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -3866,13 +3867,13 @@ var campeones = [{
     {
         "descripcion": "la Amenaza Mecánica",
         "nombre": "Rumble",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 10,
             "ataque": 3,
             "magia": 8,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "mago"
@@ -3897,13 +3898,13 @@ var campeones = [{
     {
         "descripcion": "el Mago Rúnico",
         "nombre": "Ryze",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 2,
             "magia": 10,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "luchador"
@@ -3963,13 +3964,13 @@ var campeones = [{
     {
         "descripcion": "la Ira del Invierno",
         "nombre": "Sejuani",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 5,
             "magia": 6,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -4014,13 +4015,13 @@ var campeones = [{
     {
         "descripcion": "el Bufón Siniestro",
         "nombre": "Shaco",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 8,
             "magia": 6,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "asesino"
         ],
@@ -4064,13 +4065,13 @@ var campeones = [{
     {
         "descripcion": "el Ojo del Crepúsculo",
         "nombre": "Shen",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 3,
             "magia": 3,
             "defensa": 9
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             null
@@ -4110,13 +4111,13 @@ var campeones = [{
     {
         "descripcion": "la Hija del Dragón",
         "nombre": "Shyvana",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 8,
             "magia": 3,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -4156,13 +4157,13 @@ var campeones = [{
     {
         "descripcion": "el Químico Loco",
         "nombre": "Singed",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 4,
             "magia": 7,
             "defensa": 8
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -4212,13 +4213,13 @@ var campeones = [{
     {
         "descripcion": "el Coloso no Muerto",
         "nombre": "Sion",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 5,
             "magia": 3,
             "defensa": 9
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -4253,13 +4254,13 @@ var campeones = [{
     {
         "descripcion": "la Señora de la Batalla",
         "nombre": "Sivir",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 9,
             "magia": 1,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "tirador"
         ],
@@ -4308,13 +4309,13 @@ var campeones = [{
     {
         "descripcion": "la Vanguardia de Cristal",
         "nombre": "Skarner",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 7,
             "magia": 5,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -4344,13 +4345,13 @@ var campeones = [{
     {
         "descripcion": "la Virtuosa de las Cuerdas",
         "nombre": "Sona",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 5,
             "magia": 8,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "mago"
@@ -4395,13 +4396,13 @@ var campeones = [{
     {
         "descripcion": "la Hija de las Estrellas",
         "nombre": "Soraka",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 2,
             "magia": 7,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "mago"
@@ -4441,13 +4442,13 @@ var campeones = [{
     {
         "descripcion": "el Estratega Maestro",
         "nombre": "Swain",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 2,
             "magia": 9,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "luchador"
@@ -4472,13 +4473,13 @@ var campeones = [{
     {
         "descripcion": "la Soberana Oscura",
         "nombre": "Syndra",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 2,
             "magia": 9,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -4508,6 +4509,7 @@ var campeones = [{
     {
         "descripcion": "el Rey del Río",
         "nombre": "Tahm Kench",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 3,
@@ -4515,7 +4517,6 @@ var campeones = [{
             "defensa": 9
         },
         "nombrelistado": "TahmKench",
-        "precio": 0,
         "tipo": [
             "soporte",
             "tanque"
@@ -4535,13 +4536,13 @@ var campeones = [{
     {
         "descripcion": "la Tejedora de Piedra",
         "nombre": "Taliyah",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 1,
             "magia": 8,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"
@@ -4555,13 +4556,13 @@ var campeones = [{
     {
         "descripcion": "la Sombra de la Navaja",
         "nombre": "Talon",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 9,
             "magia": 1,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -4591,13 +4592,13 @@ var campeones = [{
     {
         "descripcion": "el Escudo de Valoran",
         "nombre": "Taric",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 4,
             "magia": 5,
             "defensa": 8
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "luchador"
@@ -4627,13 +4628,13 @@ var campeones = [{
     {
         "descripcion": "el Explorador Veloz",
         "nombre": "Teemo",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 5,
             "magia": 7,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "asesino"
@@ -4688,13 +4689,13 @@ var campeones = [{
     {
         "descripcion": "el Carcelero Implacable",
         "nombre": "Thresh",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 5,
             "magia": 6,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "luchador"
@@ -4729,13 +4730,13 @@ var campeones = [{
     {
         "descripcion": "la Artillera Yordle",
         "nombre": "Tristana",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 9,
             "magia": 5,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "asesino"
@@ -4785,13 +4786,13 @@ var campeones = [{
     {
         "descripcion": "el Rey de los Troles",
         "nombre": "Trundle",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 7,
             "magia": 2,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -4826,13 +4827,13 @@ var campeones = [{
     {
         "descripcion": "el Rey Bárbaro",
         "nombre": "Tryndamere",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 5,
             "ataque": 10,
             "magia": 2,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -4882,6 +4883,7 @@ var campeones = [{
     {
         "descripcion": "el Maestro de las Cartas",
         "nombre": "Twisted Fate",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 6,
@@ -4889,7 +4891,6 @@ var campeones = [{
             "defensa": 2
         },
         "nombrelistado": "TwistedFate",
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -4943,13 +4944,13 @@ var campeones = [{
     {
         "descripcion": "la Rata Mutante",
         "nombre": "Twitch",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 9,
             "magia": 3,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "asesino"
@@ -4994,13 +4995,13 @@ var campeones = [{
     {
         "descripcion": "el Cambiapieles",
         "nombre": "Udyr",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 8,
             "magia": 4,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -5030,13 +5031,13 @@ var campeones = [{
     {
         "descripcion": "el Orgullo del Verdugo",
         "nombre": "Urgot",
+        "precio": 3150,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 8,
             "magia": 3,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "luchador"
@@ -5061,13 +5062,13 @@ var campeones = [{
     {
         "descripcion": "la Flecha del Castigo",
         "nombre": "Varus",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 2,
             "ataque": 7,
             "magia": 4,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "mago"
@@ -5107,13 +5108,13 @@ var campeones = [{
     {
         "descripcion": "la Cazadora Nocturna",
         "nombre": "Vayne",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 10,
             "magia": 1,
             "defensa": 1
         },
-        "precio": 0,
         "tipo": [
             "tirador",
             "asesino"
@@ -5158,13 +5159,13 @@ var campeones = [{
     {
         "descripcion": "el Pequeño Maestro del Mal",
         "nombre": "Veigar",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 2,
             "magia": 10,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -5213,6 +5214,7 @@ var campeones = [{
     {
         "descripcion": "el Ojo del Vacío",
         "nombre": "Vel'Koz",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 2,
@@ -5220,7 +5222,6 @@ var campeones = [{
             "defensa": 2
         },
         "nombrelistado": "Velkoz",
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -5244,13 +5245,13 @@ var campeones = [{
     {
         "descripcion": "la Vigilante de Piltóver",
         "nombre": "Vi",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 8,
             "magia": 3,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -5280,13 +5281,13 @@ var campeones = [{
     {
         "descripcion": "el Heraldo Mecánico",
         "nombre": "Viktor",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 9,
             "ataque": 2,
             "magia": 10,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -5310,13 +5311,13 @@ var campeones = [{
     {
         "descripcion": "el Segador Carmesí",
         "nombre": "Vladimir",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 2,
             "magia": 8,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "tanque"
@@ -5361,13 +5362,13 @@ var campeones = [{
     {
         "descripcion": "el Rugir del Trueno",
         "nombre": "Volibear",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 7,
             "magia": 4,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -5402,13 +5403,13 @@ var campeones = [{
     {
         "descripcion": "el Cazador Sanguinario",
         "nombre": "Warwick",
+        "precio": 450,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 7,
             "magia": 4,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -5458,6 +5459,7 @@ var campeones = [{
     {
         "descripcion": "el Rey de los Monos",
         "nombre": "Wukong",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 8,
@@ -5465,7 +5467,6 @@ var campeones = [{
             "defensa": 5
         },
         "nombrelistado": "MonkeyKing",
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -5500,13 +5501,13 @@ var campeones = [{
     {
         "descripcion": "el Mago Ascendente",
         "nombre": "Xerath",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 1,
             "magia": 10,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "asesino"
@@ -5536,6 +5537,7 @@ var campeones = [{
     {
         "descripcion": "el Senescal de Demacia",
         "nombre": "Xin Zhao",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 2,
             "ataque": 8,
@@ -5543,7 +5545,6 @@ var campeones = [{
             "defensa": 6
         },
         "nombrelistado": "XinZhao",
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -5583,13 +5584,13 @@ var campeones = [{
     {
         "descripcion": "el Imperdonable",
         "nombre": "Yasuo",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 10,
             "ataque": 8,
             "magia": 4,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "asesino"
@@ -5614,13 +5615,13 @@ var campeones = [{
     {
         "descripcion": "Pastor de Almas",
         "nombre": "Yorick",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 6,
             "magia": 4,
             "defensa": 6
         },
-        "precio": 0,
         "tipo": [
             "luchador",
             "tanque"
@@ -5640,13 +5641,13 @@ var campeones = [{
     {
         "descripcion": "el Arma Secreta",
         "nombre": "Zac",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 8,
             "ataque": 3,
             "magia": 7,
             "defensa": 7
         },
-        "precio": 0,
         "tipo": [
             "tanque",
             "luchador"
@@ -5666,13 +5667,13 @@ var campeones = [{
     {
         "descripcion": "el Maestro de las Sombras",
         "nombre": "Zed",
+        "precio": 6300,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 9,
             "magia": 1,
             "defensa": 2
         },
-        "precio": 0,
         "tipo": [
             "asesino",
             "luchador"
@@ -5702,13 +5703,13 @@ var campeones = [{
     {
         "descripcion": "el Experto en Hexplosivos",
         "nombre": "Ziggs",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 4,
             "ataque": 2,
             "magia": 9,
             "defensa": 4
         },
-        "precio": 0,
         "tipo": [
             "mago"
         ],
@@ -5742,13 +5743,13 @@ var campeones = [{
     {
         "descripcion": "el Guardián del Tiempo",
         "nombre": "Zilean",
+        "precio": 1350,
         "estadisticas": {
             "dificultad": 6,
             "ataque": 2,
             "magia": 8,
             "defensa": 5
         },
-        "precio": 0,
         "tipo": [
             "soporte",
             "mago"
@@ -5783,13 +5784,13 @@ var campeones = [{
     {
         "descripcion": "el Despertar de las Espinas",
         "nombre": "Zyra",
+        "precio": 4800,
         "estadisticas": {
             "dificultad": 7,
             "ataque": 4,
             "magia": 8,
             "defensa": 3
         },
-        "precio": 0,
         "tipo": [
             "mago",
             "soporte"

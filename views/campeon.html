@@ -7,8 +7,7 @@
   }
 </style>
 <div class="infocampeon">
-  <center>
-    <img ng-src="img/{{ tipo }}.png" ng-repeat="tipo in campeon.tipo">
+    <img class="tipocampeon" ng-src="img/{{ tipo }}.png" ng-repeat="tipo in campeon.tipo">
     <h1>{{ campeon.nombre }}</h1>
     {{ descripcion }}
     <div class="stats">
@@ -37,8 +36,14 @@
              <div class="stat-section" ng-repeat="i in campeon.estadisticas.dificultad | range"></div>
           </div>
         </div>
-      </div>
-
+    </div>
+    <div class="spells">
+      <div class="spell"><img onerror="this.src='img/spells/spell.png';this.style='border: none'" src="img/spells/spell.png" ng-src="img/spells/{{ campeon.nombre | fixNombreCampeon }}P.png"><p>P</p></div>
+      <div class="spell"><img onerror="this.src='img/spells/spell.png';this.style='border: none'" src="img/spells/spell.png" ng-src="img/spells/{{ campeon.nombre | fixNombreCampeon }}Q.png"><p>Q</p></div>
+      <div class="spell"><img onerror="this.src='img/spells/spell.png';this.style='border: none'" src="img/spells/spell.png" ng-src="img/spells/{{ campeon.nombre | fixNombreCampeon }}W.png"><p>W</p></div>
+      <div class="spell"><img onerror="this.src='img/spells/spell.png';this.style='border: none'" src="img/spells/spell.png" ng-src="img/spells/{{ campeon.nombre | fixNombreCampeon }}E.png"><p>E</p></div>
+      <div class="spell"><img onerror="this.src='img/spells/spell.png';this.style='border: none'" src="img/spells/spell.png" ng-src="img/spells/{{ campeon.nombre | fixNombreCampeon }}R.png"><p>R</p></div>
+    </div>
     <div id="skins" class="carousel slide" data-ride="carousel" ng-if="campeon.skins">
       <ol class="carousel-indicators" style="top: 15px; bottom: 0px;">
         <li data-target="#skins" data-slide-to="0" class="active"></li>
@@ -56,7 +61,7 @@
         <div class="carousel-item" ng-repeat="skin in campeon.skins">
           <img ng-src="/img/splash/{{ skin.splash }}" alt="{{ skin.nombre }}">
           <div class="caption">
-            <p style="margin: 0; padding: 0"><img class="coin" src="img/RP.png"> {{ skin.precio }}</p>
+            <p style="margin: 0; padding: 0"><img class="coin" src="img/RP.png"> {{ skin.precio ? skin.precio: "???" }}</p>
             <p style="margin: 0; padding: 0;"><strong>{{ skin.nombre }}</strong></p>
             <img ng-if="fondo != skin.splash" ng-click="cambiarFondo(skin.splash)" src="img/eye.png" style="position: absolute; top: 0; right: 10px; width: 24px; height: 24px; cursor: pointer;">
           </div>
@@ -64,5 +69,4 @@
       </div>
     </div>
     <div id='volver' ui-sref="listado"><a ui-sref="listado">Volver</a></div>
-  </center>
   </div>
