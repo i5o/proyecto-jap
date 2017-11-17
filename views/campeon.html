@@ -8,7 +8,7 @@
 </style>
 <div class="infocampeon">
   <center>
-    <img ng-src="img/{{ campeon.tipo }}.png">
+    <img ng-src="img/{{ tipo }}.png" ng-repeat="tipo in campeon.tipo">
     <h1>{{ campeon.nombre }}</h1>
     {{ descripcion }}
     <div class="stats">
