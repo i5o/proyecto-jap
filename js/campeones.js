@@ -1,5 +1,4 @@
-var campeones = [
-    {
+var campeones = [{
         "descripcion": "la Espada de los Oscuros",
         "nombre": "Aatrox",
         "estadisticas": {
