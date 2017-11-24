@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+import os
+import sys
+campeon = sys.argv[1]
+os.system('curl %s -o %sP.png' % (sys.argv[2], campeon))
+os.system('curl %s -o %sQ.png' % (sys.argv[3], campeon))
+os.system('curl %s -o %sW.png' % (sys.argv[4], campeon))
+os.system('curl %s -o %sE.png' % (sys.argv[5], campeon))
+os.system('curl %s -o %sR.png' % (sys.argv[6], campeon))

@@ -38,6 +38,7 @@ function ControllerCampeones($scope) {
             []
         ];
         var busqueda = $scope.busqueda.trim();
+
         $scope.campeones.forEach(function(element) {
             added = false
             if (busqueda) {

@@ -11,7 +11,7 @@ body {
 <input class="form-control" type="text" placeholder="Buscar campeon" ng-model="busqueda" ng-change="filtrar()" ng-model-options='{ debounce: 50 }' />
 <div id="campeones">
     <div class="row" ng-repeat="fila in filas">
-        <div class="campeon col-lg-1 col-md-1 col-xs-4" ng-repeat="campeon in fila">
+        <div class="campeon col-lg-1 col-md-1 col-sm-3" ng-repeat="campeon in fila">
           <img ui-sref="campeon({campeon: '{{ campeon.nombre | fixNombreCampeon }}'})" ng-src="{{ campeon.foto }}" id="fotocampeon">
           <p ui-sref="campeon({campeon: '{{ campeon.nombre | fixNombreCampeon }}'})">{{ campeon.nombre }}</p>
         </div>

@@ -199,7 +199,7 @@ var campeones = [{
     {
         "descripcion": "la Momia Triste",
         "nombre": "Amumu",
-        "precio": 0,
+        "precio": 450,
         "estadisticas": {
             "dificultad": 3,
             "ataque": 2,
@@ -5807,6 +5807,46 @@ var campeones = [{
             {
                 "nombre": "Zyra SKT T1",
                 "splash": "Zyra_3.jpg",
+                "precio": 0
+            }
+        ]
+    },
+    {
+        "descripcion": "la rebelde",
+        "nombre": "Xayah",
+        "precio": 6300,
+        "estadisticas": {
+            "dificultad": 0,
+            "ataque": 0,
+            "magia": 0,
+            "defensa": 0
+        },
+        "tipo": [
+            "tirador"
+        ],
+        "skins": [{
+                "nombre": "Xayah Ocaso Cosmico",
+                "splash": "Xayah_1.jpg",
+                "precio": 0
+            }
+        ]
+    },
+    {
+        "descripcion": "el encantador",
+        "nombre": "Rakan",
+        "precio": 6300,
+        "estadisticas": {
+            "dificultad": 0,
+            "ataque": 0,
+            "magia": 0,
+            "defensa": 0
+        },
+        "tipo": [
+            "soporte"
+        ],
+        "skins": [{
+                "nombre": "Rakan Ocaso Cosmico",
+                "splash": "Rakan_1.jpg",
                 "precio": 0
             }
         ]
