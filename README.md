@@ -1,4 +1,5 @@
-npm install
-node index.js
+## Instrucciones
+Correr npm install
+Correr node index.js
 
-http://localhost:8000
+Abrir http://localhost:8000
